@@ -29,3 +29,11 @@ console.log(map1.size);
 console.log(map1.delete('a'));
 console.log(map1.clear());
 console.log(map1)
+
+const inventory = [
+  { name: 'asparagus', type: 'vegetables', quantity: 9 },
+  { name: 'bananas', type: 'fruit', quantity: 5 },
+  { name: 'goat', type: 'meat', quantity: 23 },
+  { name: 'cherries', type: 'fruit', quantity: 12 },
+  { name: 'fish', type: 'meat', quantity: 22 },
+];
