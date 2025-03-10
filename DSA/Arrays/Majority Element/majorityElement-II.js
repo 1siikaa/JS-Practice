@@ -11,6 +11,10 @@ function majorityElementII(arr) {
     if (count1 == 0 && arr[i] !== ele2) {
       ele1 = arr[i];
       count1++;
+    } else if (arr[i] == ele1) {
+      count1++;
+    } else if (arr[i] == ele2) {
+      count2++;
     } else if (count2 == 0 && arr[i] !== ele1) {
       ele2 = arr[i];
       count2++;
