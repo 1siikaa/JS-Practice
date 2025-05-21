@@ -30,7 +30,7 @@ class ListNode {
   
   // Test
   
-  const list = new LinkedList();
+  const list = new SinglyLinkedList();
   list.append(50);
   list.append(30);
   list.append(70);
