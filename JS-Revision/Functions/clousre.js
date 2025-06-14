@@ -1,5 +1,6 @@
+
 // Closure - A closure in JavaScript is a function that remembers and has access to its lexical scope, even after the outer function has finished executing and its variables would normally be out of scope.
-msg = "very first";
+//msg = "very first";
 function outer () {
     //let msg = "first";
     // {
@@ -8,10 +9,14 @@ function outer () {
     let returnVal = function inner () {
         return msg;
      }
+     //msg = "last"
      return returnVal;
 }
+//let msg = "very last"
 let val = outer();
+//msg = "extreme last"
 console.log(val());
+msg = "extreme last" // msg is not defined
 
 
 // Another closure function example
